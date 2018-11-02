@@ -9,14 +9,16 @@ gist -> gistでフォークしてたのですが、大幅に手を入れるこ�
 
 使い方は呼び出し側のソースで各種のキーをセットして
 
+```javascript
 Twitter.CONSUMER_KEY = "aaaaa";
 Twitter.CONSUMER_SECRET = "bbbbb";
 Twitter.TOKEN = "ccccc";
 Twitter.TOKEN_SECRET = "ddddd";
 
-初期化して
+//初期化して
+
 Twitter.init();
 
 Twitter.tweet({ status: "ツイート内容" }))
-
+```
 でOK
